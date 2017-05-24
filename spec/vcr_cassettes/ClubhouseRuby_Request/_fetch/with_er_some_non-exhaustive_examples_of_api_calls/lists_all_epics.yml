@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.clubhouse.io/api/v1/epics
+    uri: https://api.clubhouse.io/api/beta/epics
     body:
       encoding: UTF-8
       string: "{}"
@@ -46,6 +46,6 @@ http_interactions:
         do","position":1,"archived":false,"follower_ids":["57e0b4eb-d3a0-4e27-8142-8e72a0a2cf98"],"owner_ids":["57e0b4eb-d3a0-4e27-8142-8e72a0a2cf98"],"comments":[]},{"id":24,"name":"My
         New Epic","description":"","created_at":"2016-10-24T23:00:36Z","updated_at":"2016-10-24T23:00:36Z","deadline":null,"state":"to
         do","position":2,"archived":false,"follower_ids":[],"owner_ids":[],"comments":[]}]'
-    http_version: 
+    http_version:
   recorded_at: Tue, 25 Oct 2016 01:25:22 GMT
 recorded_with: VCR 3.0.3

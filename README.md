@@ -61,7 +61,7 @@ clubhouse = ClubhouseRuby::Clubhouse.new(<YOUR CLUBHOUSE API TOKEN>, response_fo
 
 Then, call methods on the object matching the resource(s) and action you are
 interested in. For example, if you want to list all available epics, you need to
-access the endpoint at https://api.clubhouse.io/api/v1/epics. The 
+access the endpoint at https://api.clubhouse.io/api/beta/epics. The 
 clubhouse_ruby gem uses an explicit action:
 
 ```ruby

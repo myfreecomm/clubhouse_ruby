@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.clubhouse.io/api/v1/projects/5/stories
+    uri: https://api.clubhouse.io/api/beta/projects/5/stories
     body:
       encoding: UTF-8
       string: "{}"
@@ -60,6 +60,6 @@ http_interactions:
         Goons","position":2,"created_at":"2016-09-20T04:44:25Z","updated_at":"2016-09-20T04:44:25Z","complete":false,"completed_at":null,"story_id":8,"owner_ids":[],"mention_ids":[]},{"id":13,"description":"Cover
         Tracks","position":3,"created_at":"2016-09-20T04:44:25Z","updated_at":"2016-09-20T04:44:25Z","complete":false,"completed_at":null,"story_id":8,"owner_ids":[],"mention_ids":[]},{"id":14,"description":"Anonymously
         Inform On Goons","position":4,"created_at":"2016-09-20T04:44:25Z","updated_at":"2016-09-20T04:44:25Z","complete":false,"completed_at":null,"story_id":8,"owner_ids":[],"mention_ids":[]}],"story_links":[]}]'
-    http_version: 
+    http_version:
   recorded_at: Tue, 25 Oct 2016 02:02:45 GMT
 recorded_with: VCR 3.0.3
